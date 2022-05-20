@@ -1,0 +1,64 @@
+/* PseudoSelectores - CustomPropertis*/
+:root{
+    --blanco: #FFF;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+}
+
+
+/* Código que transforma los rem para que valgan 10px
+Los rem permite mejor adaptación en diferentes dispositivos
+*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+/* Globales */
+
+.contenedor{
+    width:120rem;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.titulo{
+    text-align: center;
+    font-size: 3.8rem; /* 1rem = 10px  */
+}
+
+.titulo span{
+    font-size: 2rem;
+}
+
+/* Navegación */
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.navegacion-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navegacion-principal a{
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
+
